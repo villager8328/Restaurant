@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { NavLink, useNavigate } from 'react-router-dom'
 import { Menu as MenuIcon, X, ShoppingBag } from 'lucide-react'
-import restaurantConfig from '../config/restaurantConfig'
+import restaurantConfig from './restaurantConfig'
 import { useCart } from '../context/CartContext.jsx'
 
 const links = [
