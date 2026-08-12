@@ -2,8 +2,8 @@ import { useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { CheckCircle2, MessageCircle, Home } from 'lucide-react'
 import { useCart } from './CartContext.jsx'
-import { formatPrice } from '../utils/format.js'
-import { buildWhatsAppOrderLink } from '../utils/whatsapp.js'
+import { formatPrice } from './format.js'
+import { buildWhatsAppOrderLink } from './whatsapp.js'
 
 export default function OrderConfirmation() {
   const navigate = useNavigate()
