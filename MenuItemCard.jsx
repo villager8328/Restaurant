@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Plus } from 'lucide-react'
-import { useCart } from '../context/CartContext.jsx'
-import { formatPrice } from '../utils/format.js'
+import { useCart } from './CartContext.jsx'
+import { formatPrice } from './format.js'
 import QuantityControl from './QuantityControl.jsx'
 
 export default function MenuItemCard({ item }) {
