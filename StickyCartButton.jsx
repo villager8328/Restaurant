@@ -1,6 +1,6 @@
 import { useLocation, useNavigate } from 'react-router-dom'
 import { ShoppingBag, ChevronRight } from 'lucide-react'
-import { useCart } from '../context/CartContext.jsx'
+import { useCart } from './CartContext.jsx'
 import { formatPrice } from '../utils/format.js'
 
 const HIDDEN_ON = ['/cart', '/checkout', '/order-confirmation']
