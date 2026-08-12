@@ -1,7 +1,7 @@
 import { useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { CheckCircle2, MessageCircle, Home } from 'lucide-react'
-import { useCart } from '../context/CartContext.jsx'
+import { useCart } from './CartContext.jsx'
 import { formatPrice } from '../utils/format.js'
 import { buildWhatsAppOrderLink } from '../utils/whatsapp.js'
 
