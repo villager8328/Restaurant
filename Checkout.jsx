@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { ArrowRight, ArrowLeft } from 'lucide-react'
-import { useCart } from '../context/CartContext.jsx'
-import { formatPrice } from '../utils/format.js'
-import { generateOrderNumber } from '../utils/orderNumber.js'
+import { useCart } from './CartContext.jsx'
+import { formatPrice } from './format.js'
+import { generateOrderNumber } from './orderNumber.js'
 
 const PHONE_REGEX = /^[+]?[\d\s-]{7,15}$/
 
