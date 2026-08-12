@@ -1,7 +1,7 @@
 import { Routes, Route } from 'react-router-dom'
 import Navbar from "./Navbar.jsx";
-import Footer from './components/Footer.jsx'
-import StickyCartButton from './components/StickyCartButton.jsx'
+import Footer from './Footer.jsx'
+import StickyCartButton from './StickyCartButton.jsx'
 import Home from './pages/Home.jsx'
 import Menu from './pages/Menu.jsx'
 import Cart from './pages/Cart.jsx'
