@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom'
 import { Flame, ArrowRight } from 'lucide-react'
-import restaurantConfig from '../config/restaurantConfig'
+import restaurantConfig from './restaurantConfig'
 
 export default function Hero() {
   const navigate = useNavigate()
