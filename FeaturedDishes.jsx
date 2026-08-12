@@ -1,4 +1,4 @@
-import { featuredItems } from '../data/menuData.js'
+import { featuredItems } from './menuData.js'
 import MenuItemCard from './MenuItemCard.jsx'
 import EmberTrail from './EmberTrail.jsx'
 
