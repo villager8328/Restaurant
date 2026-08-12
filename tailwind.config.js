@@ -1,7 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ['./index.html', './src/**/*.{js,jsx}'],
-  theme: {
+  content:  [
+  "./*.{js,jsx,ts,tsx}",
+  "./**/*.{js,jsx,ts,tsx}"
+],
     extend: {
       colors: {
         // ---- Brand palette (Ember & Spice) ----
