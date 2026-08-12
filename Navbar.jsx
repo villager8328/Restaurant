@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { NavLink, useNavigate } from 'react-router-dom'
 import { Menu as MenuIcon, X, ShoppingBag } from 'lucide-react'
 import restaurantConfig from './restaurantConfig'
-import { useCart } from '../context/CartContext.jsx'
+import { useCart } from './CartContext.jsx'
 
 const links = [
   { to: '/', label: 'Home' },
