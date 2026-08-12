@@ -1,6 +1,6 @@
 import { createContext, useContext, useMemo } from 'react'
 import { useLocalStorage } from './useLocalStorage'
-import restaurantConfig from '../config/restaurantConfig'
+import restaurantConfig from './restaurantConfig'
 
 const CartContext = createContext(null)
 
