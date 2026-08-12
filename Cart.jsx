@@ -1,9 +1,9 @@
 import { useNavigate } from 'react-router-dom'
 import { Trash2, ArrowRight, ShoppingBag } from 'lucide-react'
-import { useCart } from '../context/CartContext.jsx'
-import { formatPrice } from '../utils/format.js'
-import QuantityControl from '../components/QuantityControl.jsx'
-import restaurantConfig from '../config/restaurantConfig'
+import { useCart } from './CartContext.jsx'
+import { formatPrice } from './format.js'
+import QuantityControl from './QuantityControl.jsx'
+import restaurantConfig from './restaurantConfig'
 
 export default function Cart() {
   const navigate = useNavigate()
