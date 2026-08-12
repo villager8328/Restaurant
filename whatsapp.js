@@ -1,4 +1,4 @@
-import restaurantConfig from '../config/restaurantConfig'
+import restaurantConfig from './restaurantConfig'
 import { formatPrice } from './format'
 
 /**
