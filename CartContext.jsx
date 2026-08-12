@@ -1,5 +1,5 @@
 import { createContext, useContext, useMemo } from 'react'
-import { useLocalStorage } from '../hooks/useLocalStorage'
+import { useLocalStorage } from './useLocalStorage'
 import restaurantConfig from '../config/restaurantConfig'
 
 const CartContext = createContext(null)
