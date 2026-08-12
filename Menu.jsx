@@ -1,8 +1,8 @@
 import { useMemo, useState } from 'react'
 import { Search } from 'lucide-react'
-import { categories, menuItems } from '../data/menuData.js'
-import CategoryTabs from '../components/CategoryTabs.jsx'
-import MenuItemCard from '../components/MenuItemCard.jsx'
+import { categories, menuItems } from './menuData.js'
+import CategoryTabs from './CategoryTabs.jsx'
+import MenuItemCard from './MenuItemCard.jsx'
 
 export default function Menu() {
   const [activeCategory, setActiveCategory] = useState('all')
