@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom'
 import { Flame, Truck, Leaf, Clock3 } from 'lucide-react'
-import Hero from '../components/Hero.jsx'
+import Hero from './Hero.jsx'
 import FeaturedDishes from '../components/FeaturedDishes.jsx'
 import EmberTrail from '../components/EmberTrail.jsx'
 import restaurantConfig from '../config/restaurantConfig'
