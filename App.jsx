@@ -2,11 +2,11 @@ import { Routes, Route } from 'react-router-dom'
 import Navbar from "./Navbar.jsx";
 import Footer from './Footer.jsx'
 import StickyCartButton from './StickyCartButton.jsx'
-import Home from './pages/Home.jsx'
-import Menu from './pages/Menu.jsx'
-import Cart from './pages/Cart.jsx'
-import Checkout from './pages/Checkout.jsx'
-import OrderConfirmation from './pages/OrderConfirmation.jsx'
+import Home from './Home.jsx'
+import Menu from './Menu.jsx'
+import Cart from './Cart.jsx'
+import Checkout from './Checkout.jsx'
+import OrderConfirmation from './OrderConfirmation.jsx'
 
 export default function App() {
   return (
