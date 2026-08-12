@@ -1,5 +1,5 @@
 import { MapPin, Phone, Clock, Instagram } from 'lucide-react'
-import restaurantConfig from '../config/restaurantConfig'
+import restaurantConfig from './restaurantConfig'
 import EmberTrail from './EmberTrail.jsx'
 
 export default function Footer() {
